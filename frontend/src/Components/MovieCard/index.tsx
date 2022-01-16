@@ -1,5 +1,5 @@
 import MovieScore from "Components/MovieScore";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { Movie } from "types/movie";
 
 type Props = {
@@ -7,6 +7,7 @@ type Props = {
 }
 
 function MovieCard({ movie } : Props) {
+
 
 
   return (
